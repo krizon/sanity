@@ -20,6 +20,7 @@ import {
   HotkeyOptions,
   OnCopyFn,
   OnPasteFn,
+  PortableTextEditor,
   RangeDecoration,
 } from '@sanity/portable-text-editor'
 import {FormPatch, PatchEvent} from '../patch'
@@ -482,12 +483,12 @@ export interface PortableTextInputProps
   extends ArrayOfObjectsInputProps<PortableTextBlock, ArraySchemaType<PortableTextBlock>> {
   hotkeys?: HotkeyOptions
   markers?: PortableTextMarker[]
-  onEditorChange?: (change: EditorChange) => void
   onCopy?: OnCopyFn
+  onEditorChange?: (change: EditorChange, editor: PortableTextEditor) => void
   onPaste?: OnPasteFn
+  rangeDecorations?: RangeDecoration[]
   renderBlockActions?: RenderBlockActionsCallback
   renderCustomMarkers?: RenderCustomMarkers
-  rangeDecorations?: RangeDecoration[]
 }
 
 /**
