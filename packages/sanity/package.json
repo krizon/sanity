@@ -27,8 +27,8 @@
       "source": "./exports/index.ts",
       "require": "./lib/index.js",
       "node": {
-        "import": "./lib/index.cjs.mjs",
-        "require": "./lib/index.js"
+        "module": "./lib/index.esm.js",
+        "import": "./lib/index.cjs.mjs"
       },
       "import": "./lib/index.esm.js",
       "default": "./lib/index.esm.js"
@@ -38,8 +38,8 @@
       "source": "./exports/_internal.ts",
       "require": "./lib/_internal.js",
       "node": {
-        "import": "./lib/_internal.cjs.mjs",
-        "require": "./lib/_internal.js"
+        "module": "./lib/_internal.esm.js",
+        "import": "./lib/_internal.cjs.mjs"
       },
       "import": "./lib/_internal.esm.js",
       "default": "./lib/_internal.esm.js"
@@ -49,8 +49,8 @@
       "source": "./exports/cli.ts",
       "require": "./lib/cli.js",
       "node": {
-        "import": "./lib/cli.cjs.mjs",
-        "require": "./lib/cli.js"
+        "module": "./lib/cli.esm.js",
+        "import": "./lib/cli.cjs.mjs"
       },
       "import": "./lib/cli.esm.js",
       "default": "./lib/cli.esm.js"
@@ -60,8 +60,8 @@
       "source": "./exports/desk.ts",
       "require": "./lib/desk.js",
       "node": {
-        "import": "./lib/desk.cjs.mjs",
-        "require": "./lib/desk.js"
+        "module": "./lib/desk.esm.js",
+        "import": "./lib/desk.cjs.mjs"
       },
       "import": "./lib/desk.esm.js",
       "default": "./lib/desk.esm.js"
@@ -71,8 +71,8 @@
       "source": "./exports/router.ts",
       "require": "./lib/router.js",
       "node": {
-        "import": "./lib/router.cjs.mjs",
-        "require": "./lib/router.js"
+        "module": "./lib/router.esm.js",
+        "import": "./lib/router.cjs.mjs"
       },
       "import": "./lib/router.esm.js",
       "default": "./lib/router.esm.js"

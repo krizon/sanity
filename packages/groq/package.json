@@ -31,8 +31,8 @@
       "source": "./src/groq.ts",
       "require": "./lib/groq.js",
       "node": {
-        "import": "./node/groq.mjs",
-        "require": "./lib/groq.js"
+        "module": "./lib/groq.esm.js",
+        "import": "./node/groq.mjs"
       },
       "import": "./lib/groq.esm.js",
       "default": "./lib/groq.esm.js"
