@@ -153,7 +153,7 @@
     "@sanity/portable-text-editor": "3.16.4",
     "@sanity/schema": "3.16.4",
     "@sanity/types": "3.16.4",
-    "@sanity/ui": "^1.7.2",
+    "@sanity/ui": "^1.7.10",
     "@sanity/util": "3.16.4",
     "@sanity/uuid": "^3.0.1",
     "@tanstack/react-virtual": "3.0.0-beta.54",
@@ -234,7 +234,7 @@
     "@playwright/experimental-ct-react": "^1.37.0",
     "@playwright/test": "^1.37.0",
     "@sanity/tsdoc": "1.0.0-alpha.38",
-    "@sanity/ui-workshop": "^1.2.9",
+    "@sanity/ui-workshop": "^1.2.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.0.16",
@@ -249,12 +249,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^3.0.2",
-    "styled-components": "^5.3.11"
+    "styled-components": "^6.0.7"
   },
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "styled-components": "^5.2"
+    "styled-components": "^5.2 || ^6"
   },
   "engines": {
     "node": ">=14.18.0"
