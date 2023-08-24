@@ -173,6 +173,14 @@ export const studioLocaleStrings = {
   /** Action message for generating the slug */
   'inputs.slug.action.generate': `Generate`,
 
+  /** --- Array Input --- */
+
+  /** Label for removing action when an array item has an error  */
+  'inputs.array.action.remove-invalid-item': 'Remove',
+
+  /** Error label for unexpected errors in the Array Input */
+  'inputs.array.error.unexpected-error': `Unexpected Error: {{error}}`,
+
   /** --- Workspace menu --- */
 
   /** Title for Workplaces dropdown menu */
