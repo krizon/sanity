@@ -2,7 +2,6 @@
 // Not minified, remove `?min=0` from the request for much smaller output
 
 // ../../node_modules/.pnpm/@sanity+ui@1.7.4_react-dom@18.2.0_react-is@18.2.0_react@18.2.0_styled-components@5.3.11/node_modules/
-/src/theme/studioTheme/fonts.ts
 var fonts = {
   code: {
     family: 'ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace',
