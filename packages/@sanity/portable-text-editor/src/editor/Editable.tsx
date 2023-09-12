@@ -1,13 +1,5 @@
 import {BaseRange, Transforms, Text, NodeEntry, Range as SlateRange} from 'slate'
-import React, {
-  useCallback,
-  useMemo,
-  useEffect,
-  forwardRef,
-  useState,
-  PropsWithChildren,
-  ReactElement,
-} from 'react'
+import React, {useCallback, useMemo, useEffect, forwardRef, useState} from 'react'
 import {
   Editable as SlateEditable,
   ReactEditor,
@@ -15,7 +7,7 @@ import {
   RenderLeafProps,
   useSlate,
 } from 'slate-react'
-import {noop} from 'lodash'
+import {flatten, noop} from 'lodash'
 import {PortableTextBlock} from '@sanity/types'
 import {
   EditorChange,
