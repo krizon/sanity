@@ -162,6 +162,7 @@ export function Compositor(props: Omit<InputProps, 'schemaType' | 'arrayFunction
       renderInput,
       renderItem,
       renderPreview,
+      scrollElement,
     ],
   )
 
@@ -380,28 +381,22 @@ export function Compositor(props: Omit<InputProps, 'schemaType' | 'arrayFunction
 
     // Keep only stable ones here!
     [
-      hasFocus,
+      ariaDescribedBy,
       editorHotkeys,
-      isActive,
-      isFullscreen,
-      onItemOpen,
-      onCopy,
-      onPaste,
-      handleToggleFullscreen,
-      path,
-      rangeDecorations,
-      readOnly,
       editorRenderAnnotation,
       editorRenderBlock,
       editorRenderChild,
+      handleToggleFullscreen,
+      hasFocus,
       isActive,
       isFullscreen,
       onCopy,
       onItemOpen,
       onPaste,
       path,
+      rangeDecorations,
       readOnly,
-      ariaDescribedBy,
+      scrollElement,
     ],
   )
 
