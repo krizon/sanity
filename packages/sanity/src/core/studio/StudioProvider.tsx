@@ -54,9 +54,9 @@ export function StudioProvider({
 }: StudioProviderProps) {
   const _children = (
     <WorkspaceLoader LoadingComponent={LoadingScreen} ConfigErrorsComponent={ConfigErrorsScreen}>
-      <NotificationsProvider>
-        <ResourceCacheProvider>{children}</ResourceCacheProvider>
-      </NotificationsProvider>
+      <ResourceCacheProvider>
+        <NotificationsProvider>{children}</NotificationsProvider>
+      </ResourceCacheProvider>
     </WorkspaceLoader>
   )
 

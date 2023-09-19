@@ -1,12 +1,14 @@
 import {ViewMode} from './types'
 
 export const WORKFLOW_IDS = [
-  'comments',
+  'comments-branched',
+  /*
   'feature-invitation',
   'maintenance-alert',
   'overage-alert',
   'project-member-added',
   'project-member-removed',
+  */
 ]
 
 export const VIEW_MODES: ViewMode[] = [

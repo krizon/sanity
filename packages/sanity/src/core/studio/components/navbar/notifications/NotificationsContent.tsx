@@ -18,7 +18,7 @@ interface NotificationsContentProps {
 }
 
 export function NotificationsContent({onSetViewMode, viewMode}: NotificationsContentProps) {
-  const {feedClient, useFeedStore} = useKnockFeed()
+  const {knock, feedClient, useFeedStore} = useKnockFeed()
   const {
     metadata: {unread_count: unreadCount},
   } = useFeedStore()
@@ -42,10 +42,13 @@ export function NotificationsContent({onSetViewMode, viewMode}: NotificationsCon
         {/* Header */}
         <Card borderBottom style={{position: 'sticky', top: 0, zIndex: 1}}>
           <Flex padding={3}>
-            <Flex padding={1}>
+            <Flex align="center" gap={1} padding={1}>
               <Label muted size={1}>
-                Notifications
+                Notifications for
               </Label>
+              <Badge fontSize={1} tone="default">
+                {knock.userId}
+              </Badge>
             </Flex>
           </Flex>
 

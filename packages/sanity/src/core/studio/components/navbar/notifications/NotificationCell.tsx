@@ -77,7 +77,7 @@ export function NotificationCell({item}: NotificationCellProps) {
     switch (item.source.key) {
       case 'feature-invitation':
         return <NotificationCellMessage item={item} />
-      case 'comments':
+      case 'comments-branched':
         return <NotificationCellMention item={item} />
       case 'maintenance-alert':
         return <NotificationCellMessage item={item} />
